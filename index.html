@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur Brandão | Engenheiro Estrutural Sênior</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏗️</text></svg>">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">AGB</div>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="hero-greeting">Olá, eu sou</p>
+                <h1 class="hero-name">Arthur Brandão</h1>
+                <h2 class="hero-title">Engenheiro Estrutural Sênior & FEA Analyst</h2>
+                <p class="hero-description">
+                    17+ anos de experiência em análise e projeto de estruturas offshore, naval e industrial. 
+                    Especializado em Elementos Finitos (FEA), análise não-linear e verificação segundo normas DNV, ABS, BV.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contato" class="btn btn-primary">Fale Comigo</a>
+                    <a href="#projetos" class="btn btn-secondary">Ver Projetos</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">30+</span>
+                        <span class="stat-label">Projetos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">17+</span>
+                        <span class="stat-label">Anos Exp.</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Análises</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card">
+                    <div class="hero-card-header">
+                        <span class="hero-card-dot"></span>
+                        <span class="hero-card-dot"></span>
+                        <span class="hero-card-dot"></span>
+                    </div>
+                    <div class="hero-card-content">
+                        <code>
+                            <span class="code-keyword">struct</span> <span class="code-type">Engineer</span> {<br>
+                            &nbsp;&nbsp;experience: <span class="code-number">17</span> years,<br>
+                            &nbsp;&nbsp;specialty: <span class="code-string">"FEA Analysis"</span>,<br>
+                            &nbsp;&nbsp;tools: [<span class="code-string">"FEMAP"</span>, <span class="code-string">"ANSYS"</span>],<br>
+                            &nbsp;&nbsp;status: <span class="code-keyword">available</span><br>
+                            }
+                        </code>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="section">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>🎯 Especializações</h3>
+                    <ul class="about-list">
+                        <li>Análise por Elementos Finitos (FEA)</li>
+                        <li>Estruturas Offshore (FPSO, Semi-submersíveis)</li>
+                        <li>Verificação Estrutural (DNV, ABS, BV, API, NBR)</li>
+                        <li>Análise de Fadiga e Flambagem</li>
+                        <li>Modelagem Paramétrica (FEMAP, ANSYS APDL)</li>
+                    </ul>
+                </div>
+                <div class="about-card">
+                    <h3>🌍 Idiomas</h3>
+                    <ul class="language-list">
+                        <li><span class="language-flag">🇧🇷</span> Português <span class="language-level">Nativo</span></li>
+                        <li><span class="language-flag">🇺🇸</span> Inglês <span class="language-level">Avançado</span></li>
+                        <li><span class="language-flag">🇷🇺</span> Russo <span class="language-level">Avançado</span></li>
+                        <li><span class="language-flag">🇪🇸</span> Espanhol <span class="language-level">Avançado</span></li>
+                    </ul>
+                </div>
+                <div class="about-card">
+                    <h3>🎓 Formação</h3>
+                    <div class="education-item">
+                        <strong>MSc Advanced Structural Engineering</strong>
+                        <span>Heriot-Watt University (em andamento)</span>
+                    </div>
+                    <div class="education-item">
+                        <strong>Python Programming</strong>
+                        <span>200 horas</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="section">
+            <h2 class="section-title">Projetos Selecionados</h2>
+            <p class="section-subtitle">Uma seleção dos projetos mais relevantes em estruturas offshore e naval</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-tag">Oil & Gas</span>
+                        <span class="project-norm">DNV</span>
+                    </div>
+                    <h3 class="project-title">P-7 / P19 / P38</h3>
+                    <p class="project-description">Plataformas de produção Petrobrás - Análise global, deck e colunas</p>
+                    <div class="project-tools">
+                        <span class="tool-tag">FEMAP</span>
+                        <span class="tool-tag">ANSYS</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-tag">Offshore</span>
+                        <span class="project-norm">ABS</span>
+                    </div>
+                    <h3 class="project-title">MDA - Içamento de Bloco</h3>
+                    <p class="project-description">Análise de içamento de módulos offshore</p>
+                    <div class="project-tools">
+                        <span class="tool-tag">OrcaFlex</span>
+                        <span class="tool-tag">ANSYS</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-tag">Naval</span>
+                        <span class="project-norm">BV</span>
+                    </div>
+                    <h3 class="project-title">SE2814 - Baleeira</h3>
+                    <p class="project-description">Estrutura de apoio - Verificação Bureau Veritas</p>
+                    <div class="project-tools">
+                        <span class="tool-tag">FEMAP</span>
+                        <span class="tool-tag">SACS</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-tag">Industrial</span>
+                        <span class="project-norm">NBR</span>
+                    </div>
+                    <h3 class="project-title">Tanque GLP</h3>
+                    <p class="project-description">Tanque de armazenamento - Análise estrutural</p>
+                    <div class="project-tools">
+                        <span class="tool-tag">ANSYS</span>
+                        <span class="tool-tag">ABAQUS</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-tag">Offshore</span>
+                        <span class="project-norm">DNV</span>
+                    </div>
+                    <h3 class="project-title">SE3357 - Heliponto</h3>
+                    <p class="project-description">Análise de içamento de heliponto</p>
+                    <div class="project-tools">
+                        <span class="tool-tag">FEMAP</span>
+                        <span class="tool-tag">OrcaFlex</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <span class="project-tag">Naval</span>
+                        <span class="project-norm">ABS</span>
+                    </div>
+                    <h3 class="project-title">PO&G Drilllship</h3>
+                    <p class="project-description">Navio sonda - Análise estrutural completa</p>
+                    <div class="project-tools">
+                        <span class="tool-tag">ANSYS</span>
+                        <span class="tool-tag">SACS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="section-title">Ferramentas & Normas</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3>Software</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <span class="skill-name">FEMAP</span>
+                            <span class="skill-level" style="--progress: 95%">15+ anos</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">ANSYS APDL</span>
+                            <span class="skill-level" style="--progress: 90%">10+ anos</span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">ANSYS Workbench</span>
+                            <span class="skill-level" style="--progress: 85%"></span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">OrcaFlex</span>
+                            <span class="skill-level" style="--progress: 80%"></span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SACS</span>
+                            <span class="skill-level" style="--progress: 75%"></span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">ABAQUS</span>
+                            <span class="skill-level" style="--progress: 70%"></span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-level" style="--progress: 65%"></span>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CATIA / SolidWorks</span>
+                            <span class="skill-level" style="--progress: 60%"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3>Normas Técnicas</h3>
+                    <div class="norms-grid">
+                        <span class="norm-tag">DNV</span>
+                        <span class="norm-tag">ABS</span>
+                        <span class="norm-tag">BV</span>
+                        <span class="norm-tag">API</span>
+                        <span class="norm-tag">NBR</span>
+                        <span class="norm-tag">Eurocode</span>
+                        <span class="norm-tag">GOST</span>
+                        <span class="norm-tag">AWS D1.1</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section contact">
+            <h2 class="section-title">Vamos Trab Juntos?</h2>
+            <p class="contact-description">
+                Estou disponível para projetos de análise estrutural, consultoria técnica e desenvolvimento de soluções personalizadas.
+            </p>
+            <div class="contact-links">
+                <a href="https://linkedin.com/in/arthur-brandão" class="contact-btn linkedin" target="_blank" rel="noopener">
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://t.me/AGB_assistant_bot" class="contact-btn telegram" target="_blank" rel="noopener">
+                    <span>Telegram</span>
+                </a>
+                <a href="mailto:arthur.gb80@email.com" class="contact-btn email">
+                    <span>Email</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Arthur Brandão. Engenheiro Estrutural.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
